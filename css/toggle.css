@@ -1,0 +1,162 @@
+
+
+label{
+  letter-spacing: 2px;
+  font-size:14px;
+}
+
+input[type=text] {
+
+
+
+width:100%;
+background-color: rgba(0,0,0, 0);
+color:white;
+box-sizing: border-box;
+
+}
+.row{
+padding-top:20px;
+baseline-shift:2em;
+}
+input[type=email] {
+
+  border-radius: 2px;
+  border:2px solid white;
+width:100%;
+box-sizing: border-box;
+
+background-color: rgba(0,0,0, 0);
+  color: white;
+}
+
+#submit{
+}
+
+
+
+
+.about-hidden{
+  display: none;
+}
+
+
+.about-btn{
+  cursor: pointer;
+  z-index:18;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+
+#section-info-slider{
+
+}
+
+
+#close-about-btn{
+  grid-row: 1;
+  grid-column:1;
+}
+
+
+
+
+
+.slide-in-about {
+
+	animation-name: SlideInAbout;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-duration: 2s;
+  animation-delay: .4s;
+  animation-fill-mode: forwards;
+
+}
+
+
+
+
+
+
+
+
+
+.title{
+  text-transform: uppercase;
+  line-height: 1.7em;
+  letter-spacing: 2px;
+  font-family: Archivo Black;
+}
+
+.text{
+  font-weight: 200;
+line-height: 1.2em;
+letter-spacing: 1px;
+font-size:13px;
+padding-right:40px;
+}
+
+.contact-img{
+  grid-row: 8/12;
+  grid-column: 1/5;
+  align-self: start;
+  justify-self: center;
+}
+
+.contact-img img{
+  max-width:200px;
+}
+
+.intro{
+  font-family: 'courier', monospace;
+
+position: relative;
+grid-row: 8/12;
+grid-column: 5/9;
+align-self: center;
+justify-self:center;
+}
+
+.form{
+
+  font-family: 'courier', monospace;
+width:100%;
+position: relative;
+grid-row: 8/12;
+grid-column: 9/14;
+align-self: center;
+justify-self:center;
+}
+
+
+
+
+@keyframes SlideInAbout{
+
+0%{
+
+transform: translateY(0px);
+}
+
+100%{
+transform: translateY(-2000px);
+
+
+}}
+
+
+
+
+@keyframes SlideOutAbout{
+
+0%{
+
+transform: translateX(0px);
+}
+
+100%{
+transform: translateX(-2000px);
+
+
+}}

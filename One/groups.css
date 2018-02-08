@@ -1,0 +1,382 @@
+body {
+    margin:0px;
+}
+
+a:link{
+  color:black;
+  text-decoration: underline;
+
+}
+
+a:hover{
+  color: white;
+  background-color:black;
+}
+
+a:visited{
+  color:black;
+  text-decoration: none;
+}
+
+
+
+#line-142 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 20px;
+  padding-left:100px;
+white-space: nowrap;
+}
+
+
+#line-147 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 20px;
+
+
+
+white-space: nowrap;
+}
+
+#line-148 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 20px;
+
+  padding-right: 325px;
+  margin-bottom: 30px;
+
+
+white-space: nowrap;
+}
+
+
+
+.earthly-container {
+  display: grid;
+  background: url("texture.jpg");
+      background-size: auto auto;
+  background-size: cover;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 100px 1fr;
+  grid-column-gap: 20px;
+  width: 100%;
+  height: 1000px;
+}
+
+.earth-text{
+  grid-column:1/13;
+  grid-row:2;
+}
+
+.earth-title{
+  grid-column:1/6;
+  grid-row:1;
+}
+
+.earthly-container h2{
+
+     text-shadow: 1px 1px 4px #ffffff ;
+    letter-spacing: 2px;
+  line-height: 20px;
+  padding-left: 100px;
+  color:white;
+    font-size: 30px;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    padding-top: 60px;
+}
+
+
+.earthly-container p{
+
+
+
+     text-shadow: 1px 1px 4px #ffffff ;
+    letter-spacing: 2px;
+  line-height: 20px;
+  padding-left:100px;
+
+  color:white;
+    font-size: 17px;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    padding-top: 60px;
+}
+
+
+@media only screen and (max-width: 600px) and (min-width: 250px)  {
+
+
+  .earthly-container {
+    display:grid;
+
+     background: url("texture.jpg");
+     background-size:contain;
+height:100%;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 20px;
+
+  }
+
+  .earth-text{
+    grid-column:1/15;
+    grid-row:2;
+  }
+
+  .earth-title{
+    grid-column:1/13;
+    grid-row:1;
+  }
+
+  .earthly-container p{
+
+
+
+       text-shadow: 1px 1px 4px #ffffff ;
+      letter-spacing: 2px;
+    line-height: 20px;
+    padding-left:20px;
+
+    color:white;
+      font-size: 17px;
+      font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+      padding-top: 60px;
+  }
+
+
+
+}
+
+
+
+
+.dew-container{
+
+
+    text-align: right;
+    background: url("blk-wht.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding-top: -150px;
+        margin-right: 0px;
+    margin-bottom: 0px;
+  height:100vh;
+
+}
+
+
+
+
+.dew-container h3{
+
+    margin-top: 20px;
+    transform: rotate(-3deg);
+    margin-right: 0px;
+    margin-bottom: 0px;
+    color: rgba(38, 38, 39, 1);
+    font-size: 35px;
+    padding-right: 340px;
+    padding-top: 150px;
+    text-shadow: 2px 0px 0px rgba(38, 38, 39, .95);
+
+}
+
+
+
+
+
+
+
+.dew-container p{
+
+    color: #3e3e3e;
+    padding-right: 325px;
+    margin-bottom: 30px;
+    padding-top: 0px;
+    transform: rotate(-3deg);
+    text-shadow: .9px .9px 0px #3e3e3e ;
+    font-size:15px;
+
+}
+
+
+
+
+
+
+
+
+
+.container{
+  font-family: 'Adobe Caslon Pro';
+  background: url(images/grid2-01.svg);
+      background-size: auto auto;
+  background-size: auto auto;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 100%;
+  height: 100vh;
+  grid-template-rows: 20vh 5vh 50vh 5vh 20vh;
+  white-space: nowrap;
+  justify-items: center;
+}
+
+
+
+
+
+.container h2{
+     font-family: 'Adobe Caslon Pro' ;
+   font-size: 70px;
+    color: black;
+    text-shadow: 6px 20px 0px white;
+    transform: rotate(2deg);
+
+    letter-spacing: 1px;
+
+
+
+
+}
+
+.container p{
+
+    transform: rotate(2deg);
+    margin-left:90px;
+margin-top:-70px;
+    font-size: 24px;
+    font-family: 'Adobe Caslon Pro';
+    text-shadow: 40px 2px 0px white;
+
+}
+
+.container a {
+
+    font-family: 'Baskerville';
+
+
+        padding: 2px;
+    padding-left: 20px;
+    padding-right: 8px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+
+
+
+}
+
+
+.links{
+  background-color: black;
+padding: 2px;
+align-self: baseline;
+}
+
+
+
+#rescatado{
+  grid-column:8/12;
+  grid-row:2/3;
+  transform: rotate(2deg);
+}
+
+#memoirs{
+  transform: rotate(-2deg);
+  grid-row:2/3;
+  grid-column:3/5;
+}
+
+
+#earthly{
+  transform: rotate(2deg);
+grid-row: 4/5;
+grid-column:3/5;
+
+}
+
+#dew{
+  transform: rotate(-3deg);
+  grid-column:8/12;
+  grid-row:4/5;
+}
+
+.main-title{
+
+  text-align:center;
+  grid-row:3;
+  align-self:center;
+  grid-column: 3/11;
+}
+
+a:hover {
+
+    color: black;
+
+}
+
+
+
+.rescatado-container{
+background-color: rgba(228,246,249, 1);
+
+  display: grid;
+  grid-template-columns: 300px repeat(12, 1fr);
+  width: 100%;
+  height: 50vh;
+  grid-template-rows: 10vh 80vh 10vh;
+
+  justify-items: center;
+
+
+
+}
+
+.rescatado-container h3{
+  transform: rotate(-90deg);
+  margin-top: 300px;
+}
+
+.rescatado-background{
+background-color: rgb(242,140,39);
+grid-row:2;
+grid-column:2;
+}
+
+#rescatado-title{
+grid-row:1/3;
+grid-column:1;
+color: rgb(242,140,39);
+font-size: 100px;
+box-sizing: border-box;
+    font-family: 'IM Fell DW Pica SC', serif;
+
+
+}
+
+
+#rescatado-text{
+
+        color: rgb(242,140,39);
+
+    box-sizing: border-box;
+    line-height: 16px;
+    font-size: 14px;
+
+    font-family: 'IM Fell English';
+    letter-spacing: .3px;
+    grid-row: 2;
+grid-column: 2/7;
+
+
+}
